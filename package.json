@@ -1,0 +1,28 @@
+{
+  "name": "ROOMER",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test:e2e": "nightwatch"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "nuxt-buefy": "^0.4.24",
+    "peerjs": "^1.4.7",
+    "socket.io-client": "^4.6.2",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "chromedriver": "^106.0.1",
+    "nightwatch": "^2.3.9"
+  }
+}
